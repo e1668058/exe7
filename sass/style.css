@@ -22,6 +22,10 @@ p {
   color: aquamarine;
 }
 
+.entry-header {
+  border: 1px solid black;
+}
+
 .rayure {
   background: repeating-linear-gradient(45deg, blue, blue 10px, lightblue 10px, lightblue 20px);
 }

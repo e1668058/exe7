@@ -7,3 +7,23 @@
         lightblue 20px
     );
 }
+
+.animbloc1{
+    animation: float 1s infinite;
+}
+
+.animbloc2{
+    animation: color 1s infinite;
+}
+
+@keyframes float{
+    to{
+        background-color: red;
+    }
+}
+
+@keyframes float{
+    to{
+        transform: translateX(5px) translateY(5px);
+    }
+}

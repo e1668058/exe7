@@ -30,6 +30,35 @@ p {
   background: repeating-linear-gradient(45deg, blue, blue 10px, lightblue 10px, lightblue 20px);
 }
 
+.animbloc1 {
+  -webkit-animation: float 1s infinite;
+          animation: float 1s infinite;
+}
+
+.animbloc2 {
+  -webkit-animation: color 1s infinite;
+          animation: color 1s infinite;
+}
+
+@-webkit-keyframes float {
+  to {
+    background-color: red;
+  }
+}
+
+@keyframes float {
+  to {
+    background-color: red;
+  }
+}
+
+@keyframes float {
+  to {
+    -webkit-transform: translateX(5px) translateY(5px);
+            transform: translateX(5px) translateY(5px);
+  }
+}
+
 .rayure-grise {
   background-image: repeating-linear-gradient(-45deg, #ddd, #ddd 20px, #eee 20px, #eee 40px);
 }

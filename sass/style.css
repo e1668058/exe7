@@ -24,4 +24,12 @@ p {
 .rayure {
   background: repeating-linear-gradient(45deg, blue, blue 10px, lightblue 10px, lightblue 20px);
 }
+
+.rayure-grise {
+  background-image: repeating-linear-gradient(-45deg, #ddd, #ddd 20px, #eee 20px, #eee 40px);
+}
+
+.site-info {
+  background-color: blue;
+}
 /*# sourceMappingURL=style.css.map */

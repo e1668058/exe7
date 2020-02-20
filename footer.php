@@ -22,6 +22,7 @@
 			<?php if ( ! empty( $blog_info ) ) : ?>
 				<a class="site-name" href="#" rel="home"><?php bloginfo( 'name' ); ?></a>
 			<?php endif; ?>
+
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentynineteen' ) ); ?>" class="imprint">
 				<?php
 				/* translators: %s: WordPress. */
@@ -32,6 +33,7 @@
 			if ( function_exists( 'the_privacy_policy_link' ) ) {
 				the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
 			}
+			
 			?>
 			<?php if ( has_nav_menu( 'footer' ) ) : ?>
 				<nav class="footer-navigation" aria-label="<?php esc_attr_e( 'Footer Menu', 'twentynineteen' ); ?>">

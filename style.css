@@ -1,5 +1,6 @@
-﻿/*
- Theme Name:   Twenty nineteen enfant 2
+@charset "UTF-8";
+/*
+ Theme Name:   Twenty nineteen enfant
  Theme URI:    http://example.com/twenty-fifteen-child/
  Description:  Twenty nineifteen thème enfant
  Author:       Allen Jang
@@ -9,5 +10,67 @@
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  twentynineteenenfant2
+ Text Domain:  twentynineteenenfant
+*/
+p {
+  font-family: 'Odibee Sans', cursive;
+}
 
+.entry .entry-title:before {
+  width: 0;
+  height: 0;
+  color: aquamarine;
+}
+
+.entry-header {
+  border: 1px solid black;
+}
+
+.rayure {
+  background: repeating-linear-gradient(45deg, blue, blue 10px, lightblue 10px, lightblue 20px);
+}
+
+.animbloc1 {
+  -webkit-animation: float 1s infinite;
+          animation: float 1s infinite;
+}
+
+.animbloc2 {
+  -webkit-animation: color 1s infinite;
+          animation: color 1s infinite;
+}
+
+@-webkit-keyframes color {
+  to {
+    background-color: red;
+  }
+}
+
+@keyframes color {
+  to {
+    background-color: red;
+  }
+}
+
+@-webkit-keyframes float {
+  to {
+    -webkit-transform: translateX(5px) translateY(5px);
+            transform: translateX(5px) translateY(5px);
+  }
+}
+
+@keyframes float {
+  to {
+    -webkit-transform: translateX(5px) translateY(5px);
+            transform: translateX(5px) translateY(5px);
+  }
+}
+
+.rayure-grise {
+  background-image: repeating-linear-gradient(-45deg, #ddd, #ddd 20px, #eee 20px, #eee 40px);
+}
+
+.site-info {
+  background-color: blue;
+}
+/*# sourceMappingURL=style.css.map */

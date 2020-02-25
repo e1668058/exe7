@@ -40,15 +40,22 @@ p {
           animation: color 1s infinite;
 }
 
-@-webkit-keyframes float {
+@-webkit-keyframes color {
   to {
     background-color: red;
   }
 }
 
-@keyframes float {
+@keyframes color {
   to {
     background-color: red;
+  }
+}
+
+@-webkit-keyframes float {
+  to {
+    -webkit-transform: translateX(5px) translateY(5px);
+            transform: translateX(5px) translateY(5px);
   }
 }
 
